@@ -1,0 +1,54 @@
+*{
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+/* body {
+    background-color: rgba(224, 194, 199);
+    /* background-color: rgb(226, 209, 209); }*/
+
+
+/* .carousel-item {
+    max-width: 50%;
+} */
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+/* section h1 {
+    font-family: 'Grenze Gotisch', cursive;
+    font-family: 'Raleway', sans-serif;
+} */
+
+#separador { 
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    
+}
+
+#separador .content {
+    background-color: rgba(99, 64, 91, 0.815);
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+button:hover {
+    transition: all ease-out 0.2s;
+    transform: scale(1.05);
+}
+
+.card-border {
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover {
+    transform: scale(1.05);
+}
